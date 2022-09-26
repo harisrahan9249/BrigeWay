@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    background: black;
+    
+}
+.navbar_logo img{
+    margin-top: .9em;
+    width: 150px;
+    margin-left: 5em;
+    height: 9rem;
+}
+.navbar_logo{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.navbar_tag{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    align-items: center;
+    margin-left: 10em;
+}
+.navbar_tag a{
+    margin: 2em;
+    text-decoration: none;
+    color: white;
+}
