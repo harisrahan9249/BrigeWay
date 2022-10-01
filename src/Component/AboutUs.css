@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:400,600,700,400italic,600italic);
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.About_head{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    font-family: 'josefin sans';
+    text-transform: uppercase;
+    color: rgb(90, 88, 88);
+}
+.About_frame{
+    display: flex;
+    padding: 6em;
+    background: white;
+    margin-top: 5em;
+}
+.frame_one{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.About_content{
+    font-family: montserrat;
+    font-weight: 200;
+}
+.frame_one_section{
+    display: flex;
+    margin-top: 4em;
+   
+}
+.frame_section_one{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5em;
+    width: 50%;
+    /* border: 1px solid rgb(144, 139, 139); */
+    /* background: rgb(244, 237, 237); */
+}
+.frame_section_one_head{
+    font-weight: 600;
+    margin-left: 1.6em;
+    margin-top: 0%;
+    /* text-align: center; */
+}
+.frame_section_one_content{
+    font-weight: 400;
+    font-size: medium;
+    text-align:start;
+    padding: .5em;
+    margin-top: 0%;
+    text-transform: capitalize;
+   
+}
+.icon{
+    background: black;
+}
+.frame_two_section{
+    margin-left: 3em;
+    margin-top: 7em;
+}

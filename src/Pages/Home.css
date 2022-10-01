@@ -1,7 +1,54 @@
-.Home_head{
-    background: black;
-    height: 70vh;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:400,600,700,400italic,600italic);
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+.Home{
+    height: 90vh;
+}
+.Home_section{
+    background: #b6c2cf;
+    height: 26vh;
+    width: 1185px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-top: 12.7em;
+    margin-left: 14em;
+
 }
 .Home_head{
+    width: 30%;
+    margin-left: 1em;
+    color: #fff ;
+    font-size: 40px;
+   text-align: center;
+    font-family: 'josefin sans';
+	font-weight: 700;
+    /* font-family: montserrat; */
+    text-transform: uppercase;
+
+}
+.Home_content{
+    color: black;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-weight: 400;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+.Home_Button{
+    background: transparent;
     color: white;
+    border: 1px solid white;
+    border-radius: 2em;
+    width: 8em;
+    height: 2em;
+}
+.Home_boder{
+    background: black;
+    height: 6em;
+    padding: 1px;
+    margin-left: 1em;
 }
