@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:400,600,700,400italic,600italic);
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.businesses_section{
+    margin-bottom: 4em;
+}
+.businesses_section h1{
+    color: rgba(32, 27, 27, 0.593) ;
+    font-size: 40px;
+   /* text-align: center; */
+    font-family: 'josefin sans';
+	font-weight: 700;
+    /* font-family: montserrat; */
+    text-transform: uppercase;
+    margin-left: 2.4em;
+
+
+}
+.card_section{
+    display: flex;
+    justify-items: flex-start;
+    gap: 2em;
+    margin-left: 6em;
+    margin-right: 5em;
+}
+.card_one img{
+    width: 380px;
+    padding: 1em;
+
+}
+.card_one{
+    /* border-style: groove; */
+    border-radius: 5px;
+    background: #b6c2cf;
+    background-color: #b6c2cf;
+    
+}
+.card_one h3{
+    margin-left: 1em;
+    color: rgba(32, 27, 27, 0.593) ;
+    font-size: 20px;
+   /* text-align: center; */
+    font-family: 'josefin sans';
+	font-weight: 700;
+    /* font-family: montserrat; */
+    text-transform: uppercase;
+}
+.card_one h5{
+   padding: .5em;
+    margin-left: .8em;
+    color: black ;
+    font-size: 15px;
+   /* text-align: center; */
+    font-family: 'josefin sans';
+	font-weight: 200;
+    /* font-family: montserrat; */
+    text-transform: uppercase;
+}
+.card_content{
+   padding: .5em;
+    margin-left: .8em;
+    margin-bottom: 2.6em;
+    color: black ;
+    font-size: 15px;
+   /* text-align: center; */
+    font-family: 'josefin sans';
+	font-weight: 200;
+    /* font-family: montserrat; */
+    text-transform: uppercase;
+}
+.card_btn1{
+    width: 100px;
+    margin-left: 1em;
+    color: white;
+    background: black;
+    border-radius: 10px;
+    height: 30px;
+    font-family: 'josefin sans';
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.card_btn{
+    color: white;
+    background: black;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    width: 100px;
+    border-radius: 10px;
+    height: 30px;
+    font-family: 'josefin sans';
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.card_btn:hover{
+    color:white;
+    background: rgb(36, 2, 2);
+    cursor: pointer;
+    font-weight: 700;
+
+}
+.card_btn1:hover{
+    color:white;
+    background: rgb(36, 2, 2);
+    cursor: pointer;
+    font-weight: 700;
+
+}

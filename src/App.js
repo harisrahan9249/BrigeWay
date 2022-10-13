@@ -3,6 +3,8 @@ import './App.css';
 import Home from './Pages/Home';
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom'
 import About from './Pages/About';
+import MappleEvent from './Pages/MappleEvent';
+import Consulting from './Pages/Consulting';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
                 <Route element={<About />} path='/about'  /> 
                 <Route element={<Home />} path='/'  /> 
                 <Route element={<Home />} path='/'  /> 
+                <Route element={<MappleEvent />} path='/MappleEvent'  /> 
+                <Route element={<Consulting />} path='/Consulting'  /> 
                 {/* <Route exact path="/" component={} /> 
                 <Route exact path="/live" component={live}/> */}
             
