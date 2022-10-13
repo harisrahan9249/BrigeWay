@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:400,600,700,400italic,600italic);
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.Consulting{
+    align-items: center;
+    text-align: center;
+}
+.Consulting_head{
+    margin-top: 3em;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 40px;
+
+}
+.Consulting_content{
+    padding: 2em;
+    background: white;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 3em;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight:500;
+    color: rgb(1, 14, 14);
+    
+    border-radius: 10px;
+    
+}
+.purpose_section{
+    /* background: black; */
+    height: 50vh;
+    display: flex;
+    margin-top: 15em;
+  
+}
+.purpose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 13em;
+    /* background: black; */
+}
+.mission{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 23em;
+    /* background: black; */
+}
+.purpose_head{
+    /* background: white; */
+    padding: 1em;
+    width: 250px;
+    margin-bottom: 1em;
+    margin-top: 39px;
+    color: black;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 32px;
+
+}
+.mission_head{
+    /* background: white; */
+    padding: 1em;
+    width: 450px;
+    margin-bottom: 1em;
+    margin-top: 39px;
+    color: black;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 32px;
+
+}
+.purpose_content{
+    /* background: white; */
+    color: black;
+    width: 350px;
+    margin-top: 0em;
+    text-align: center;
+    padding: 0%;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.mission_content{
+    /* background: white; */
+    color: black;
+    width: 350px;
+    margin-top: 0em;
+    text-align: center;
+    padding: 0%;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.Why_Bridgeway{
+    margin-top: 5em;
+    background: rgb(86, 90, 86);
+}
+.Why_Bridgeway_head{
+    /* width: 450px; */
+    margin-bottom: 1em;
+    padding: 1em;
+    margin-top: 39px;
+    color: white;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 52px;
+}
+.Why_Bridgeway_subhead{
+    color: rgb(246, 225, 225);
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 32px;
+}
+.Why_Bridgeway_content{
+    margin-left: 3em;
+    margin-right: 3em;
+    color: white;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 22px;
+    padding: 2em;
+    text-align:inherit;
+}
+.Services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Services_head{
+    /* width: 450px; */
+    margin-bottom: 1em;
+    padding: 1em;
+    margin-top: 39px;
+    color: rgb(66, 62, 62);
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 52px;
+}
+.Services_card_head{
+    /* width: 450px; */
+    /* margin-bottom: 1em; */
+    padding: .5em;
+    /* margin-top: 39px; */
+    color: rgb(66, 62, 62);
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 22px;
+    font-weight:500;
+}
+.Services_card{
+    display: grid;
+    grid-template-columns: 22em 19em;
+    /* background-color: #2196F3; */
+    padding: 102px;
+    gap: 9em;
+    /* background: wheat; */
+
+}
+
+.Services_card1 img{
+    width: 300px;
+    /* padding: 1em; */
+}
+.Services_card2 img{
+    width: 300px;
+    height: 175px;
+}
